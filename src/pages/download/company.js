@@ -11,7 +11,7 @@ const Company = () => {
         <div className="embed-responsive embed-responsive-21by9">
         <iframe 
         className="embed-responsive-item"
-        src="http://162.13.59.154:3000/public/question/ccb42eaa-0502-4aba-99c0-a5674ae5a172"
+        src="https://reports.socketworks.ng/public/question/ccb42eaa-0502-4aba-99c0-a5674ae5a172"
         allowtransparency
       >
 

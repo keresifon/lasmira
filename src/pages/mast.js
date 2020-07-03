@@ -11,7 +11,7 @@ const Mast = () => {
         <div className="embed-responsive embed-responsive-21by9">
         <iframe 
         className="embed-responsive-item"
-        src="http://162.13.59.154:3000/public/dashboard/2084997c-89c6-41fb-9252-984c6f903d0c"
+        src="https://reports.socketworks.ng/public/dashboard/2084997c-89c6-41fb-9252-984c6f903d0c"
         allowtransparency
       >
 
