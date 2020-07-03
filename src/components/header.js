@@ -8,11 +8,18 @@ import { Link } from 'gatsby';
 const Header = ({ siteTitle }) => {
   return (
   <Navbar bg="light" variant="light">
-    <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+    <Navbar.Brand as={Link} to="/">LASIMRA Reports</Navbar.Brand>
     <Nav className="mr-auto">
-      <Nav.Link href="#home">Home</Nav.Link>
-      <Nav.Link href="#features">Features</Nav.Link>
-      <Nav.Link href="#pricing">Pricing</Nav.Link>
+      <Nav.Link as={Link} to="/">Home</Nav.Link>
+      <Nav.Link as={Link} to="#features">Features</Nav.Link>
+      <Nav.Link as={Link} to="#pricing">Pricing</Nav.Link>
+      <NavDropdown title="Reports" id="basic-nav-dropdown" >
+      <NavDropdown.Item as={Link} to="/dashboard" activeClassName="active">Dashboard</NavDropdown.Item>
+        <NavDropdown.Item as={Link} to="/mast" activeClassName="active">Mast/Tower</NavDropdown.Item>
+        <NavDropdown.Item as={Link} to="/company" activeClassName="active">Company List</NavDropdown.Item>
+        <NavDropdown.Item as={Link} to="/type" activeClassName="active">Intallation Type</NavDropdown.Item>
+        
+      </NavDropdown>
     </Nav>
     
   </Navbar>
