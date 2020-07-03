@@ -19,6 +19,13 @@ const Header = ({ siteTitle }) => {
         <NavDropdown.Item as={Link} to="/type" activeClassName="active">Intallation Type</NavDropdown.Item>
         
       </NavDropdown>
+      <NavDropdown title="Download" id="basic-nav-dropdown" >
+      
+        <NavDropdown.Item as={Link} to="/download/mast" activeClassName="active">Mast/Tower Data</NavDropdown.Item>
+        <NavDropdown.Item as={Link} to="/download/company" activeClassName="active">Company List</NavDropdown.Item>
+        
+        
+      </NavDropdown>
     </Nav>
     
   </Navbar>
