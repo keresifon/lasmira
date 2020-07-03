@@ -27,7 +27,7 @@ const Layout = ({ children }) => {
   return (
     <>
       <Header siteTitle={data.site.siteMetadata.title} />
-      <div className="py-2 mx-5">
+      <div  >
         <main>{children}</main>
         
       </div>
