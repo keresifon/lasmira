@@ -32,7 +32,7 @@ const IndexPage = () => (
           <Card.Body>
             <Card.Title></Card.Title>
             <Card.Text>
-              
+              Understanding your data has never been easier
             </Card.Text>
           </Card.Body>
           
