@@ -12,7 +12,7 @@ const IndexPage = () => (
     <div className="py-3"></div>
     <div className= "container display-1">learn from data</div>
     <div className="py-3"></div>
-    <div className="container">
+    <div className="container bg-light">
       <CardDeck>
         <Card>
           <Card.Img
@@ -32,7 +32,7 @@ const IndexPage = () => (
           <Card.Body>
             <Card.Title></Card.Title>
             <Card.Text>
-              Understanding your data has never been easier
+              Understand your data 
             </Card.Text>
           </Card.Body>
           
@@ -41,7 +41,7 @@ const IndexPage = () => (
           
           <Card.Body>
             <Card.Title className= "display-3">LASIMRA</Card.Title>
-            <Card.Text>
+            <Card.Text className= "display-4 text-info">
              MAST AND TOWER
             </Card.Text>
           </Card.Body>
@@ -49,6 +49,7 @@ const IndexPage = () => (
         </Card>
       </CardDeck>
     </div>
+    <div className="py-3"></div>
   </Layout>
 )
 
