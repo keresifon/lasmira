@@ -1,17 +1,16 @@
 import React from "react"
 import { Link } from "gatsby"
-import Layout from "../components/layout"
+import Layout from "../../components/layout"
+import SEO from "../../components/seo"
 
-import SEO from "../components/seo"
-
-const Company = () => {
+const Dashboard = () => {
     return (
         <Layout>
         <SEO title="Home" />
         <div className="embed-responsive embed-responsive-21by9">
         <iframe 
         className="embed-responsive-item"
-        src="https://reports.socketworks.ng/public/dashboard/0c938e8e-41df-44e0-b093-f16067598ac0"
+        src="https://reports.socketworks.ng/public/dashboard/a84b84fa-4bd5-4978-a0c6-bb2578fec845"
         allowtransparency
       >
 
@@ -21,4 +20,4 @@ const Company = () => {
       );
 }
  
-export default Company;
+export default Dashboard;

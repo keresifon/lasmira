@@ -11,7 +11,7 @@ const Header = ({ siteTitle }) => {
     <Navbar.Brand as={Link} to="/">LASIMRA Reports</Navbar.Brand>
     <Nav className="mr-auto">
       <Nav.Link as={Link} to="/">Home</Nav.Link>
-      
+      <Nav.Link as={Link} to="/account">Account</Nav.Link>
       <NavDropdown title="Reports" id="basic-nav-dropdown" >
       <NavDropdown.Item as={Link} to="/dashboard" activeClassName="active">Dashboard</NavDropdown.Item>
         <NavDropdown.Item as={Link} to="/mast" activeClassName="active">Mast/Tower</NavDropdown.Item>
