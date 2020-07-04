@@ -17,7 +17,7 @@ class SessionCheck extends React.Component {
     }
 
     handleCheckSession = () => {
-        this.setState( { loading:false})
+        this.setState( { loading:false })
     }
 
     componentDidMount() {
